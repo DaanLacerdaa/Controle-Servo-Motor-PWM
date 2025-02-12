@@ -47,7 +47,7 @@ pico_enable_stdio_usb(servo_motor_pwm 0)
 # Add the standard library to the build
 target_link_libraries(servo_motor_pwm
         pico_stdlib
-        hardware_pwm)
+        )
 
 # Add the standard include files to the build
 target_include_directories(servo_motor_pwm PRIVATE
@@ -57,7 +57,7 @@ target_include_directories(servo_motor_pwm PRIVATE
 # Add any user requested libraries
 target_link_libraries(servo_motor_pwm 
         
-        )
+hardware_pwm  )
 
 pico_add_extra_outputs(servo_motor_pwm)
 
