@@ -12,6 +12,7 @@ Este repositório armazena a implementação de uma aplicação prática do mód
 
 O experimento pode ser conferido no seguinte link:
 [Assistir ao Vídeo](https://youtu.be/9EVYCtBK0po)
+[Link Wokwi](https://wokwi.com/projects/422642904023999489)
 
 ---
 
